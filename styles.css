@@ -63,4 +63,8 @@ p {
     .about-me {
         height: 100vh;
     }
+
+    .navigation-bar {
+        background-color: blue;
+    }
 }
