@@ -4,6 +4,7 @@
 
 .header {
     background-color: #F1F7B5;
+    
 }
 
 .navigation-bar {
@@ -58,6 +59,8 @@ p {
     border: 3px solid black;
 }
 
-@media (min-width: 319px) and (max-width: 480px) {
-    
+@media (min-width: 280px) and (max-width: 480px) {
+    .about-me {
+        height: 100vh;
+    }
 }
