@@ -1,0 +1,63 @@
+#profile-picture {
+    border-radius: 100%;
+}
+
+.header {
+    background-color: #F6F6C9;
+}
+
+.navigation-bar {
+    background-color: #4FA095;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+}
+
+.footer-section {
+    background-color: #153462;
+}
+
+p {
+    color: white;
+}
+
+.about-me {
+    display: flex;
+    background-color: #BAD1C2;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-description {
+    margin-bottom: 0px;
+}
+
+.projects-section {
+    background-color: #F6F6C9;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 1800px;
+    height: 1050px;
+}
+
+.project-item {
+    border: 3px solid black;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    
+}
