@@ -4,7 +4,7 @@
 
 .header {
     background-color: #F1F7B5;
-    
+    height: 75vh;
 }
 
 .navigation-bar {
@@ -24,24 +24,26 @@ h2 {
 }
 
 p {
-    color: white;
+    color: black;
+    font-family: 'Righteous', cursive;
 }
 
 .about-me {
     display: flex;
     background-color: #A8D1D1;
-    height: 500px;
+    height: 80vh;
     justify-content: center;
     align-items: center;
 }
 
 .about-me-description {
     margin-bottom: 0px;
+    font-size: 2em;
 }
 
 .projects-section {
     background-color: #F1F7B5;
-    height: 84vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,12 +61,13 @@ p {
     border: 3px solid black;
 }
 
+.contact-me-section {
+    background-color: #F1F7B5;
+    height: 100vh;
+}
+
 @media only screen and (min-width: 412px) and (max-width: 767px) {
     .about-me {
         height: 100vh;
-    }
-
-    .navigation-bar {
-        background-color: blue;
     }
 }
