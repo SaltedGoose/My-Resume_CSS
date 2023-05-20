@@ -3,11 +3,11 @@
 }
 
 .header {
-    background-color: #F6F6C9;
+    background-color: #F1F7B5;
 }
 
 .navigation-bar {
-    background-color: #4FA095;
+    background-color: #FD8A8A;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h2 {
 }
 
 .footer-section {
-    background-color: #153462;
+    background-color: #9EA1D4;
 }
 
 p {
@@ -28,7 +28,7 @@ p {
 
 .about-me {
     display: flex;
-    background-color: #BAD1C2;
+    background-color: #A8D1D1;
     height: 500px;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@ p {
 }
 
 .projects-section {
-    background-color: #F6F6C9;
+    background-color: #F1F7B5;
     height: 84vh;
     display: flex;
     justify-content: center;
